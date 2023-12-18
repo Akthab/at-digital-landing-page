@@ -5,7 +5,7 @@ function NavBar() {
 	const [navbar, setNavbar] = useState(false);
 	return (
 		<div>
-			<nav className='w-full  bg-[#6B3CC9] fixed top-0 left-0 right-0 z-10'>
+			<nav className='w-full  bg-[#6B3CC9]'>
 				<div className='justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8'>
 					<div>
 						<div className='flex items-center justify-between py-3 md:py-5 md:block'>
@@ -17,14 +17,14 @@ function NavBar() {
 								>
 									{navbar ? (
 										<Image
-											src='/close_icon.svg'
+											src='/close-icon.svg'
 											width={30}
 											height={30}
 											alt='logo'
 										/>
 									) : (
 										<Image
-											src='/hamburger_icon.svg'
+											src='/hamburger-icon.svg'
 											width={30}
 											height={30}
 											alt='logo'
