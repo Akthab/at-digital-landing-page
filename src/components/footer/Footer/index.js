@@ -4,8 +4,8 @@ import Image from 'next/image';
 export default function Footer() {
 	return (
 		<>
-			<div class='fixed bottom-0 left-0 w-full bg-[#6B3CC9] text-white p-4 text-center'>
-				<div class='flex flex-row flex-wrap mt-100px'>
+			<div class='w-full bg-[#6B3CC9] text-white p-4 text-center'>
+				<div class='flex flex-row flex-wrap'>
 					<div class='basis-full md:basis-1/2 sm:basis-full p-4'>
 						<div class='md:w-3/5 w-438px md:pl-6 space-y-8'>
 							<Image src='/logo.svg' width={239} height={37} alt='logo' />
